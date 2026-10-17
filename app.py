@@ -23,7 +23,7 @@ conn = connection()
 # Native Streamlit theme handles the white background and compact controls.
 col_logo, col_title = st.columns([1, 5], vertical_alignment="center")
 with col_logo:
-    st.image(str(BASE / "logo.jpg"), width=75)
+    st.image(str(BASE / "StratfordOaks_RGB.png"), width=75)
 with col_title:
     st.markdown("### Content Submission Manager")
     st.caption("Stratford Oaks Golf Club")
